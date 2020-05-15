@@ -76,7 +76,7 @@ namespace classes
             public string DOB;
             public int heightInCm;
             public int ID;
-            List<string> subjects = new List<string>();
+            public List<string> subjects;
 
             public Person(string firstName, string surname, string DOB, int height, int ID)
             {
